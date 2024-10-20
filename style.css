@@ -525,7 +525,7 @@ body{
 }
 
 .news-title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: var(--primary-color);
 }
@@ -591,7 +591,7 @@ body{
         font-size: 2.5rem;
     }
 }
-
+/* Footer container */
 .footer-container{
     background-color: var(--background-color);
     margin: 0 auto;
@@ -716,5 +716,14 @@ ul{
     }
     .footer-top{
         padding: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-grid {
+        width: 100%; 
+        max-width: none; 
+        margin: 0 auto; 
+        justify-items: center; 
     }
 }
